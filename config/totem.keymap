@@ -72,7 +72,7 @@
             label = "Nav";
             bindings = <
               &kp TILDE       &trans     &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-              &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&none         &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &none
 &kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                          &trans        &trans     &trans      &trans    &trans        &kp DOT
             >;
@@ -82,7 +82,7 @@
             label = "Sym";
             bindings = <
         &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
+&none   &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans     &none
 &trans  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
@@ -92,7 +92,7 @@
             label = "Fun";
             bindings = <
         &bootloader  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp END  &kp F1
-        &trans       &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &trans   &kp F10
+&none   &trans       &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &trans   &kp F10  &none
 &trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
                              &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -101,7 +101,7 @@
         Gaming {
             bindings = <
             &kp R           &kp X  &kp C      &kp V         &kp T     &trans  &trans  &trans  &trans  &trans
-            &kp TAB         &kp Q  &kp W      &kp E         &sl 5     &trans  &trans  &trans  &trans  &trans
+&none       &kp TAB         &kp Q  &kp W      &kp E         &sl 5     &trans  &trans  &trans  &trans  &trans  &none
 &kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
                                    &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
             >;
@@ -112,7 +112,7 @@
         Gaming+ {
             bindings = <
          &kp F10  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &kp LC(RA(DEL))
-         &kp L    &kp O         &kp Y         &kp K         &kp G           &kp F5  &trans  &trans  &trans  &trans
+&none    &kp L    &kp O         &kp Y         &kp K         &kp G           &kp F5  &trans  &trans  &trans  &trans           &none
 &kp TAB  &to 0    &trans        &trans        &kp NUMBER_5  &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans           &kp LA(F4)
                                 &kp J         &kp I         &kp M           &trans  &trans  &trans
             >;
