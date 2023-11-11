@@ -33,4 +33,19 @@
            <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
            <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
+
+    encoder: encoder {
+        compatible = "alps,ec11";
+        label = "ENCODER";
+        a-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <40>;
+        status = "okay";
+    };
+
+    sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder>;
+        triggers-per-rotation = <20>;
+    };
 };
