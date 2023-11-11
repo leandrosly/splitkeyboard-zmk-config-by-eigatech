@@ -54,7 +54,9 @@
                 &lt 3 ESCAPE   &kp Z        &kp X        &kp C           &kp V          &kp B             &kp N     &kp M         &kp COMMA     &kp DOT      &kp SLASH            &kp APOSTROPHE
                                                          &mt LCTRL DEL   &lt 1 TAB      &kp SPACE         &kp RET   &lt 2 BSPC    &kp MINUS
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
+            >;
         };
 
         Nav {
@@ -64,6 +66,9 @@
                 &none         &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT          &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &none
                 &kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR          &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                                          &trans        &trans     &trans            &trans    &trans        &kp DOT
+            >;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
         };
 
@@ -75,6 +80,9 @@
                 &trans   &trans     &trans   &trans     &trans       &trans               &kp UNDER   &kp EQUAL       &trans            &trans    &kp SLASH   &kp HOME
                                              &trans     &trans       &trans               &trans      &trans          &trans
             >;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
+            >;
         };
 
         Fun {
@@ -85,6 +93,9 @@
                 &trans   &trans        &trans   &trans   &trans   &trans          &trans   &trans   &trans   &trans    &kp F20   &kp F7
                                                 &trans   &trans   &trans          &trans   &trans   &trans
             >;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
+            >;
         };
 
         Gaming {
@@ -93,6 +104,9 @@
                 &none        &kp TAB          &kp Q   &kp W       &kp E          &sl 5           &trans  &trans  &trans  &trans  &trans  &none
                 &kp ESCAPE   &kp LEFT_SHIFT   &kp A   &kp S       &kp D          &kp F           &trans  &trans  &trans  &trans  &trans  &trans
                                                       &kp LCTRL   &kp LEFT_ALT   &trans          &trans  &trans  &trans
+            >;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
             label = "Gaming";
         };
@@ -103,6 +117,9 @@
                 &none     &kp L     &kp O          &kp Y          &kp K          &kp G                 &kp F5  &trans  &trans  &trans  &trans           &none
                 &kp TAB   &to 0     &trans         &trans         &kp NUMBER_5   &kp NUMBER_6          &trans  &trans  &trans  &trans  &trans           &kp LA(F4)
                                                    &kp J          &kp I          &kp M                 &trans  &trans  &trans
+            >;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
             label = "Gaming+";
         };
