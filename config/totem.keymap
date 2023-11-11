@@ -54,9 +54,9 @@
                 &lt 3 ESCAPE   &kp Z        &kp X        &kp C           &kp V          &kp B             &kp N     &kp M         &kp COMMA     &kp DOT      &kp SLASH            &kp APOSTROPHE
                                                          &mt LCTRL DEL   &lt 1 TAB      &kp SPACE         &kp RET   &lt 2 BSPC    &kp MINUS
             >;
-            sensor-bindings = <
-                &inc_dec_kp C_VOL_UP C_VOL_DN
-            >;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Nav {
