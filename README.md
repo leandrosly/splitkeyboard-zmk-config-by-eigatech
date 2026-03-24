@@ -52,6 +52,10 @@ Additionally, this repository contains alternative configurations meant to be us
 - [TOTEM Dongle](https://github.com/eigatech/zmk-config/tree/totem-dongle)
 - [TOTEM Prospector](https://github.com/eigatech/zmk-config/tree/totem-prospector)
 
+## KLOR
+
+- [KLOR Dongle](https://github.com/eigatech/zmk-config/tree/klor-dongle)
+
 ## Dongle Flashing
 
 Dongle configs use Seeed Xiao Ble microcontrollers housed in a nifty 3D printed [case](https://www.printables.com/model/522586-seeed-xiao-ble-case).
